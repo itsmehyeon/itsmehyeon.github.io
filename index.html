@@ -15,11 +15,13 @@
 
 
     <script>
-        // 헤더 로드
-        fetch('header.html')
-          .then(response => response.text())
-          .then(data => {
-            document.getElementById('header').innerHTML = data;
-          });
+  // 프로젝트 루트를 기준으로 layout 폴더 안에 있는 header.html 파일 불러오기
+  fetch('/layout/header.html') // 루트 디렉토리 기준으로 경로 설정
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading header:', error));
+</script>
 </body>
 </html>
