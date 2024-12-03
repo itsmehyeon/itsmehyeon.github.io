@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Itsmehyeon</title>
+    <title>Danyo</title>
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/color.css">
 </head>
 <body>
-    <header>
-        <h1>안녕하세요.</h1>
-    </header>
-    <main>
-    </main>
-    <footer>
-    </footer>
+    <div id="header"></div>
+    <main></main>
+
+
+
+    <script>
+        // 헤더 로드
+        fetch('header.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('header').innerHTML = data;
+          });
 </body>
 </html>
