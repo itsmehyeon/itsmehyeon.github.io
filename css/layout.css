@@ -3,4 +3,4 @@ html{width: 100vw; height: 100%; background: var(--gray100);}
 body{margin: 0 auto; background: var(--white); min-height: 100vh;}
 
 
-#headerMain {display: flex; justify-content: space-between; align-items: center; padding: 24px 50px;}
+#header {display: flex; justify-content: space-between; align-items: center; padding: 24px 50px;}
