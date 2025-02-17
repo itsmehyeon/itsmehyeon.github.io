@@ -66,4 +66,7 @@ footer{position: fixed; left : 50px; bottom: 24px; font-size: 14px; font-weight:
 
 
 /* 포트폴리오 */
-.portfolioImg{}
+.portfolioList{display: flex; margin: 50px; flex-direction: column; gap: 10px; position: fixed;}
+.portfolioList li a{font-size: 20px; color: var(--gray500); padding: 12px 16px; min-width: 400px; font-weight: var(--regular); display: flex; border-radius: 2px; box-sizing: border-box;}
+#imgArea{margin-left: 550px;}
+#imgArea img{width: 1270px;}
