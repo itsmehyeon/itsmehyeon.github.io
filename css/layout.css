@@ -35,7 +35,7 @@ main{display: flex;}
 
 
 #profile {display: flex; flex-direction: column; max-width: 400px; padding: 50px; gap: 40px; position: fixed;}
-#profile img{filter: grayscale(100%); transition: 0.3s ease;}
+#profile img{filter: grayscale(50%); transition: 0.3s ease; border-radius: 2px;}
 #profile img:hover{filter: grayscale(0%);}
 #profile ul li{font-size: 18px; font-weight: var(--regular); color: var(--gray600); line-height: 130%;}
 #profile ul li:first-of-type{font-size: 24px; font-weight: var(--semibold); color: var(--gray750); line-height: 100%; margin-bottom: 16px;}
